@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T22:39:31.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="iYXauF4sgH23AReJav0S" version="21.8.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-10-01T22:40:42.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="zYcoCsiJvqwFN9mEM7ao" version="21.8.2" type="device">
   <diagram name="Страница — 1" id="GYarA3kAtlxYYJ5zgSWC">
     <mxGraphModel dx="1235" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
             <mxPoint x="579" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="83AvB_rJKQ6btJ9zlwZ4-158" value="Есперт" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userFemale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="1">
+        <mxCell id="83AvB_rJKQ6btJ9zlwZ4-158" value="Експерт" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.userFemale;strokeColor=#666666;strokeColor2=#008cff;" vertex="1" parent="1">
           <mxGeometry x="230" y="930" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="83AvB_rJKQ6btJ9zlwZ4-163" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
