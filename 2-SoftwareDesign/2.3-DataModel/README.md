@@ -1,3 +1,4 @@
 **Схема моделі даних**
 
-![ReiDB](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/2ce80a6f-9e1d-4606-b356-179f930eff50)
+
+![ReiDB](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/f7dd05dd-009d-4dc7-98b6-3a14f129c042)
