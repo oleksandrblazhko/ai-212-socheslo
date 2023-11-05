@@ -1,2 +1,3 @@
 
-![DataModel](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/8627c635-e9eb-4c39-98eb-2a762ef2559d)
+
+![DataModel](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/968bb05c-aa70-405a-9777-cd2ee9833326)
