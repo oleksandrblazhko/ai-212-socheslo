@@ -9,11 +9,11 @@ entity "Sportsmen" as a01 {
     --
     name
     age
-    adress
+    address
     (FK) Replyonlinemessages
 }
 
-entity "Trainingexercises" as а02{
+entity "Trainingexercises" as a02 {
     (PK) Training exercises
     --
     name
@@ -21,23 +21,22 @@ entity "Trainingexercises" as а02{
     (FK) Sportsmen
 }
 
-entity "Selection_of_Training_Program" as a03{
-    (PK) Selection_of_Training_Program
+entity "Selection_of_Training_Program" as a03 {
+    (PK) Selection_of Training Program
     --
     date
     duration
 }
 
-entity "Expert" as a04{
+entity "Expert" as a04 {
     (PK) Expert
     --
     name
     (FK) Selection_of_Training_Program
     (FK) Sportsmen
 }
-}
 
-entity "Replyonlinemessages" as a05{
+entity "Replyonlinemessages" as a05 {
     (PK) Replyonlinemessages
     --
     date
@@ -45,7 +44,7 @@ entity "Replyonlinemessages" as a05{
     (FK) Expert
 }
 
-entity "Training_program_notification" as a06{
+entity "Training_program_notification" as a06 {
     (PK) Training program notification
     --
     date
@@ -53,20 +52,12 @@ entity "Training_program_notification" as a06{
     (FK) Sportsmen
 }
 
-a01 --{ a04
-
-a01 --{ a02
-
+a01 --|{ a04
+a01 --|{ a02
 a02 -- a03
-
-a03 --{ a04
-
-a04 --{ a05
-
-a05 --{ a01
-
-a06 --{ a01
-
-
+a03 --|{ a04
+a04 --|{ a05
+a05 --|{ a01
+a06 --|{ a01
 
 @enduml
