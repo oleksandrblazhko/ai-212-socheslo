@@ -1,3 +1,4 @@
+```plantuml
 @startuml
 
 title Example of Relation Schema
@@ -22,7 +23,7 @@ entity "Trainingexercises" as a02 {
 }
 
 entity "Selection_of_Training_Program" as a03 {
-    (PK) Selection_of Training Program
+    (PK) Selection_of_Training_Program
     --
     date
     duration
@@ -61,3 +62,4 @@ a05 --{ a01
 a06 --{ a01
 
 @enduml
+
