@@ -1,0 +1,26 @@
+@startuml
+hide circle
+title UML-ConceptClasses
+left to right direction
+
+Class Спортсмен{
+    Ім'я
+    Вік
+    Адреса
+}
+
+Class Тренувальні_програми{
+    Назва
+    План
+}
+
+Class Відповідь_на_Online_повідомлення{
+   Дата
+   Текст
+}
+
+
+Спортсмен"1" --> "*"Тренувальні_програми: ViewTrainingPrograms
+
+Відповідь_на_Online_повідомлення"1" --> "*"Спортсмен: ReceiveOnlineMessage
+@enduml
