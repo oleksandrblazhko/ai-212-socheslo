@@ -1,1 +1,2 @@
-![UML-Activity md](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/b9afea50-0cdf-4f84-969d-6f2a445f3ec3)
+
+![1](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/58c8eb40-c8e9-472d-a147-fa4da9e31bbb)
