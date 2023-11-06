@@ -1,1 +1,2 @@
-![2](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/c2a66919-bb85-498f-8f3f-1e2aa8b90066)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai-212-socheslo/laboratory-work-7/2-SoftwareDesign/2.7-PlantUML/UML-Deployment.puml)
+
