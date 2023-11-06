@@ -1,1 +1,2 @@
-![Знімок екрана 2023-11-06 011947](https://github.com/oleksandrblazhko/ai-212-socheslo/assets/101970415/18eebff7-7686-4d7d-bbde-f34eb39cf0a1)
+![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/oleksandrblazhko/ai-212-socheslo/laboratory-work-7/2-SoftwareDesign/2.7-PlantUML/UseCase.puml)
+
