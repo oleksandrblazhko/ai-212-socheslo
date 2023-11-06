@@ -1,0 +1,41 @@
+@startuml
+title UML-діаграма розгортання в PlantUML
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Смартфон>>" as dk1 {
+    node "<<OS Android>>" {
+              component [.apk(Android Studio)]
+    }
+}
+
+interface Сенсорний_екран
+
+interface Мікрофон
+
+Сенсорний_екран -- dk1
+
+Мікрофон -- dk1
+
+node "<<Сервер 2>>" as serv2 {
+    node "<<OS Linux>>" {
+        node "<<Application Server Apache Tomcat>>" {
+            component [.jar]
+        }
+    }
+}
+
+node "<<Сервер 4>>" as serv4 {
+    node "<< OS Linux >>" {
+        node "<<Database Server PostgreSQL>>" {
+            component [Relation Database]
+        }
+    }
+}
+
+dk1 -- serv2
+serv2 -- serv4
+
+@enduml
