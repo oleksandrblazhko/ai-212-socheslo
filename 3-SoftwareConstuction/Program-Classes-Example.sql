@@ -9,8 +9,10 @@ CREATE OR REPLACE TYPE Sportsmen_ AS OBJECT (
 CREATE TYPE SportsmenInfo IS TABLE OF Sportsmen_;
 /
 CREATE OR REPLACE TYPE Trainingprogramnotifications UNDER Sportsmen_ (
-    telephone INT, 
-    info SportsmenInfo,       
+    ID INT, 
+    date_of_training DATE,
+    status VARCHAR(10),
+    Sportsmen VARCHAR(100),       
     OVERRIDING MEMBER PROCEDURE display
 ); 
 /
