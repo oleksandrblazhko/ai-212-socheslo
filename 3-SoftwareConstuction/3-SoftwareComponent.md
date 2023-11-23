@@ -1,5 +1,6 @@
-| Тип програмної компоненти	 | Назва, версія програмної компоненти | Місце розташування програмної компоненти |
-| -------- | -------- | -------- |
-| IDE | WebStorm | 	Локальний сервер |
-| Runtime Environment / Application Server | Node.js ver. 18.16.1 | 	Локальний сервер |
-| Database Server | PostgreSQL v15.4 | 	Локальний сервер |
+| Тип програмного компоненту | Назва, програмного компоненту | Місце розташування програмного компоненту |
+| -------------------------- | ----------------------------- | ----------------------------------------- |
+| IDE | Oracle APEX ver. 22.2.0-17 | Oracle Apex Cloud https://apex.oracle.com/pls/apex/ |
+| Application Server | Oracle APEX ver. 22.2.0-17 | Oracle Apex Cloud |
+| DataBase Server | Database Server Oracle ver. 21XE | Oracle Apex Cloud |
+| DataBase Server | Database Server Oracle ver. 18XE | VPS, localhost |
