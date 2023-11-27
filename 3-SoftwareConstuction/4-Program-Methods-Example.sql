@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION expert_answer (
+CREATE OR REPLACE FUNCTION expert_selectTrainingProgram
     p_id IN INT,
     p_name IN VARCHAR2
 )
