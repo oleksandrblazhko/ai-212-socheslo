@@ -1,15 +1,19 @@
 DECLARE
-    v_count INT;
+    v_result INT;
 BEGIN
-    SELECT COUNT(*) INTO v_count
-    FROM Sportsmen
-    WHERE Name = 'John' AND age = 25 AND address = '123_Street';
+    -- Виклик функції selectTrainingProgram
+    v_result := selectTrainingProgram('Sportsman123', 'ProgramX', 7);
 
-    IF v_count > 0 THEN
-        DBMS_OUTPUT.PUT_LINE('Успішно!');
-        DBMS_OUTPUT.PUT_LINE('Запис знайдено. Чекайте подальших вказівок.');
-    ELSE
-        DBMS_OUTPUT.PUT_LINE('Помилка! Запис не знайдено! Спробуйте, будь ласка, ще раз.');
+    -- Обробка результату
+    IF v_result = 1 THEN
+        DBMS_OUTPUT.PUT_LINE('Спортсмен успішно обрав тренувальну вправу.');
+    ELSIF v_result = -2 THEN
+        DBMS_OUTPUT.PUT_LINE('Помилка! ID спортсмена не відповідає умовам.');
+    ELSIF v_result = -3 THEN
+        DBMS_OUTPUT.PUT_LINE('Помилка! Назва тренувальної програми не відповідає умовам.');
+    ELSIF v_result = -4 THEN
+        DBMS_OUTPUT.PUT_LINE('Помилка! Тривалість тренувальної програми не відповідає умовам.');
     END IF;
 END;
 /
+
